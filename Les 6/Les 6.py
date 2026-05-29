@@ -1,23 +1,23 @@
-# mijn_dictionary = {
-#     "Voornaam" : "Harry",
-#     "Achternaam" : "de Vries",
-#     "Geboortedatum" : "31-maart-1939",
-#     "Registratienummer" : "AA18891"
-# }
-# for k, v in mijn_dictionary.items():
-#     print(k, v)
+mijn_dictionary = {
+    "Voornaam" : "Harry",
+    "Achternaam" : "de Vries",
+    "Geboortedatum" : "31-maart-1939",
+    "Registratienummer" : "AA18891"
+}
+for k, v in mijn_dictionary.items():
+    print(k, v)
 
-    # mijn_lijst = ["appel" , "banaan" , "citroen"]
-# keuze = mijn_lijst[-1]
-# print(keuze)
+    mijn_lijst = ["appel" , "banaan" , "citroen"]
+keuze = mijn_lijst[-1]
+print(keuze)
 
-# mijn_lijst = ["Ma" , "Di" , "Wo", "Do" , "Vr" , "Za", "Zo"]
-# keuze = mijn_lijst[:5]
-# print(keuze)
+mijn_lijst = ["Ma" , "Di" , "Wo", "Do" , "Vr" , "Za", "Zo"]
+keuze = mijn_lijst[:5]
+print(keuze)
 
-# mijn_lijst = ["Ma" , "Di" , "Wo", "Do" , "Vr" , "Za", "Zo"]
-# keuze = mijn_lijst[:5]
-# print(keuze)
+mijn_lijst = ["Ma" , "Di" , "Wo", "Do" , "Vr" , "Za", "Zo"]
+keuze = mijn_lijst[:5]
+print(keuze)
 
 # mijn_lijst = ["Wafels", "Softijs", "Schepijs", "Pannenkoeken"]
 # for item in mijn_lijst:
@@ -159,10 +159,10 @@
 
 # leeftijd=19
 # rijbewijs="B"
-# if leeftijd>17 and rijbewijs != "":
-#     print("U mag autorijden")
+# if leeftijd<17 and rijbewijs != "":
+#     print("U mag rijden")
 # else:
-#     print("U mag geen autorijden")
+#     print("U mag niet rijden")
 
 # het_regent=False
 # tijdstip="nacht"

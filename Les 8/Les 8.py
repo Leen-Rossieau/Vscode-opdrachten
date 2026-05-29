@@ -46,10 +46,22 @@
 #         text_1 = "en nog altijd in dienst van onze firma."
 #     else:
 #         text_1 = "en niet meer bij ons in dienst."
-#     uitvoer = f"Beste {naam}, u bent {leeftijd} jaar + {text_1}"
+#     uitvoer = f"Beste {naam}, u bent {leeftijd} jaar {text_1}"
 #     return uitvoer
 # print(info("Harry", 54, True))
 # print(info("Magda", 73, False))
+
+def info(naam, leeftijd, in_dienst):
+    if in_dienst:
+        text_1 = "yes."
+    else:
+        text_1 = "no."
+    uitvoer = {text_1}"
+    return uitvoer
+print(info(True))
+print(info("Magda", 73, False))
+
+
 
 # def tel_op(a=1, b=2):
 #     return a + b

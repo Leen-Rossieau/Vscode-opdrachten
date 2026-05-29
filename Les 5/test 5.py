@@ -63,7 +63,7 @@
 # for i in range (10, 20):
 #     print(f"{i} maal 2 is {i * 2}")
 
-# # 5.13 Les 3:
-# leeftijd = 30
-# naam = "Deborah"
-# print(f"Haar naam is {naam}, ze is {leeftijd} jaar oud.")
+# 5.13 Les 3:
+leeftijd = 30
+naam = "Deborah"
+print(f"Haar naam is {naam}, ze is {leeftijd} jaar oud.")
